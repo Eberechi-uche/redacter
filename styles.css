@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+.heading-container{
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   background-color: black;
+   margin-bottom: 10px;
+}
+.text{
+    display: grid;
+    max-width: 400px;
+    max-height: 500px;
+    overflow-wrap: break-word;
+    padding:10px;
+     
+}
+.text .large{
+    font-size: 7rem;
+    line-height: 100px;
+    letter-spacing: 10px; 
+}
+.canva-container{
+    height:auto; 
+    width:30vw;
+    border-radius: 10%;
+}
+/* forms */
+
+#wordInput{
+    border: 2px solid black;
+    min-width: 80vw;
+    text-align: center;
+    padding:10px;
+}
+.short input{
+    max-width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: large;
+}
+input{
+    border:2px solid black;
+}
+.arrow{
+    color:black;
+    font-size: 30px;
+}
+/* main-container */
+.main-container{
+    padding: 10px;
+    text-align: center;
+    color:black;
+    width: 100vw;
+    height: auto;
+    border: 7px solid black;
+    margin-bottom: 20px;
+}
+.output-container{
+    word-wrap: break-word;
+}
+#output{
+    letter-spacing: normal;
+    padding: 15px;
+}
+
+
+
+
+
+
+  /* button */
+  .btn{
+    background-color: #000; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .green{
+    background-color: green;
+  }
+
+  /* Animate text */
+

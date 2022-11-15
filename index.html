@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="heading-container">
+        <div class="text">
+            <p class="large">redacter</p>
+            <p> click  <span class="btn green"> optimise</span> get the most recurig letter for better encrytion
+                the pie chart would show you the top 4 most recurring letters
+            </p>
+            <P>space is counted as a value by default</P>
+            <p>happy encryption</p>
+             
+        </div>
+        <div class="canva-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="main-item">
+            <div>
+                <textarea name="" id="wordInput" cols="30" rows="10" placeholder="enter your text"></textarea>
+
+            </div>
+            <div>
+                <form class="short">
+                    <input id="input1" type="text" maxlength="1"><input id="input2" type="text" maxlength="1"><input id="input3" type="text" maxlength="1"><input id="input4" type="text" maxlength="1">
+                    <span class="arrow"> &#10500</span>
+                    <input id="input5" type="text" maxlength="1"><input id="input6" type="text" maxlength="1"><input id="input7" type="text" maxlength="1"><input id="input8" type="text" maxlength="1">
+                </form>
+                <button onclick="optimise()" class="btn green">optimise</button><button class="btn" onclick="encrypt()"> encrypt/decrypt</button>
+            </div>
+            <div class="output-container">
+                <p id="output"> your redacted text here</p>
+            </div>
+        </div>
+    </main>
+    <script src="/index.js"></script>
+    <script src="./animateText.js"></script>
+</body>
+</html>
