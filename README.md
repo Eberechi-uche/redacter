@@ -1,11 +1,8 @@
+# redacter
 
-#Redacter 
-https://redacter.netlify.app/
-Built with vanilla JavaScript
-Used a frequency counter algorithm 
-To get the most recurring letter
-For better encryption 
-Used chart.js to display this. 
-Focused on logic, hence not mobile 
-Responsive, view on a desktop. 
-Happy crypting. 
+A simple app built to encrypt or decrypt text;
+used vanilla js and chartJs.
+helped with dom Manipulation, used frequency counter algorithm to get the most
+recurring letter,
+made use of encapsulation to keep the global scope less polluted.
+AppLink https://redacter.netlify.app
